@@ -11,13 +11,19 @@ function Stack() {
           <img src="/logos_react.png" alt="React" className="w-20 h-auto" />
           <img src="/vscode-icons_file-type-js-official.png" alt="JavaScript" className="w-20 h-auto" />
           <img src="/vscode-icons_file-type-html.png" alt="HTML" className="w-20 h-auto" />
-          <img src="/.png" alt="CSS" className="w-20 h-auto" />
-          <img src="/logos_tailwind.png" alt="Tailwind CSS" className="w-20 h-auto" />
-          <img src="/logos_node.png" alt="Node.js" className="w-20 h-auto" />
-          <img src="/logos_next.png" alt="Next.js" className="w-20 h-auto" />
-          <img src="/logos_git.png" alt="Git" className="w-20 h-auto" />
-          <img src="/logos_figma.png" alt="Figma" className="w-20 h-auto" />
+          <img src="/vscode-icons_file-type-css.png" alt="CSS" className="w-20 h-auto" />
+          <img src="/vscode-icons_file-type-tailwind.svg" alt="Tailwind CSS" className="w-20 h-auto" />
+          <img src="/logos_bootstrap.svg" alt="bootstrap" className="w-20 h-auto" />
+          <img src="/skill-icons_nextjs-light.svg" alt="Next.js" className="w-20 h-auto" />
+          <img src="/logos_git-icon.svg" alt="Git" className="w-20 h-auto" />
+          <img src="/vscode-icons_file-type-vscode.svg" alt="vscode" className="w-20 h-auto" />
+          <img src="/skill-icons_cs.svg" alt="c#" className="w-20 h-auto" />
+          <img src="/material-icon-theme_python.svg" alt="python" className="w-20 h-auto" />  
+          <img src="/Group.svg" alt="nodejs" className="w-20 h-auto" />
+
+
         </div>
+        
       </>
     );
   }
