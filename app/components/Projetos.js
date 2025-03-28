@@ -1,6 +1,6 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
-function Projetos() {
+function Projetos({limit}) {
   const projetos = [
     {
       id: 1,
@@ -98,6 +98,7 @@ function Projetos() {
     },
   ];
 
+  const projetosLimit = limit ? projetos.slice(0, limit) : projetos;
   return (
     <>
       <h1 className="text-5xl font-bold leading-tight text-center mb-3 text-sky-700">
@@ -107,7 +108,7 @@ function Projetos() {
         Alguns projetos que eu desenvolvi
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
-        {projetos.map((projeto) => (
+        {projetosLimit.map((projeto) => (
           <div
             key={projeto.id}
             className="bg-white shadow-lg rounded-lg overflow-hidden"

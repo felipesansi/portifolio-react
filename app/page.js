@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Projetos from "./components/Projetos";
 
 function Page() {
+  const limit = 6;
   return (
     <>
       <div className="bg-white text-gray-800">
@@ -16,10 +17,13 @@ function Page() {
         <Stack />
       </div>
       <div className="w-screen min-h-screen bg-white flex flex-col">
-        <Projetos />
+        <Projetos limit={limit} />
       </div>
     </>
   );
-}
+
+    
+  }
+
 
 export default Page;

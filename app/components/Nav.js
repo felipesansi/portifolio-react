@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Github } from "lucide-react";
+import { Linkedin } from "lucide-react";  // Parece que você não está utilizando o Linkedin, se for o caso, remova essa importação
+import Projetos from "../components/Projetos"; // Não é necessário importar aqui, pois não é utilizado neste componente
 
 function Nav() {
   return (
@@ -11,7 +13,7 @@ function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="/projects" className="hover:underline px-10">
+          <Link href="/Projetos" className="hover:underline px-10">
             Projetos
           </Link>
         </li>
@@ -21,8 +23,8 @@ function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="/contact" className="hover:underline">
-            <Github className="text-sky-800 font-bold font" />
+          <Link href="https://github.com/felipsansi" target="_blank" className="hover:underline">
+            <Github className="text-sky-800 font-bold" />
           </Link>
         </li>
       </ul>
